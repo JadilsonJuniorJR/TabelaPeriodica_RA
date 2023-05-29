@@ -202,7 +202,7 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Helio
+  mTrackableName: Helio_2
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Aula01.xml
   mAspectRatio: 1
@@ -223,13 +223,13 @@ Transform:
   m_GameObject: {fileID: 16488418}
   m_LocalRotation: {x: -0.6336144, y: -0.0049430463, z: -0.010175181, w: 0.7735663}
   m_LocalPosition: {x: 2.2330678, y: -0.20788637, z: 4.7209964}
-  m_LocalScale: {x: 1.0000203, y: 1.0088195, z: 1.2768576}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 644158666}
   - {fileID: 1144652449}
   m_Father: {fileID: 414079933}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &16488422
 MonoBehaviour:
@@ -257,11 +257,108 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 16488420}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Helio
+  mTargetName: Helio_2
   mDatasetName: Vuforia/Aula01.xml
   mCastedBehaviour: {fileID: 16488420}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
+--- !u!1 &73208609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 73208610}
+  - component: {fileID: 73208611}
+  - component: {fileID: 73208612}
+  m_Layer: 0
+  m_Name: Informacao
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &73208610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73208609}
+  m_LocalRotation: {x: -0, y: -0, z: 2.3283064e-10, w: 1}
+  m_LocalPosition: {x: -0.5, y: 0.5, z: 0.4}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 589397180}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &73208611
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73208609}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 21300000, guid: 2562d05851486614b89ea8fe748459ba, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 2.63, y: 1.61}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!114 &73208612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 73208609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c395e0415d7384c966f14f70f09aa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &160655023
 GameObject:
   m_ObjectHideFlags: 0
@@ -745,8 +842,8 @@ Transform:
   m_LocalScale: {x: 1, y: 0.77441, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 16488421}
   - {fileID: 589397180}
+  - {fileID: 16488421}
   - {fileID: 1436951767}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -764,6 +861,7 @@ GameObject:
   - component: {fileID: 421090686}
   - component: {fileID: 421090685}
   - component: {fileID: 421090684}
+  - component: {fileID: 421090688}
   m_Layer: 0
   m_Name: Atomo
   m_TagString: Untagged
@@ -806,7 +904,7 @@ Animator:
   m_GameObject: {fileID: 421090682}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: afa3efb58a085d748a2227240db7745a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1bfe0b69cacbfe14f8da6a638db90e9f, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -880,6 +978,18 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 421090682}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &421090688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421090682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c395e0415d7384c966f14f70f09aa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &537880893
 GameObject:
   m_ObjectHideFlags: 0
@@ -1055,7 +1165,7 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Hidrogenio
+  mTrackableName: Hidrogenio_2
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Aula01.xml
   mAspectRatio: 1
@@ -1076,13 +1186,13 @@ Transform:
   m_GameObject: {fileID: 589397177}
   m_LocalRotation: {x: -0.6336144, y: -0.0049430463, z: -0.010175181, w: 0.7735663}
   m_LocalPosition: {x: 0.23357949, y: -0.18340692, z: 4.679912}
-  m_LocalScale: {x: 1.0000203, y: 1.0088195, z: 1.2768576}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1639421333}
-  - {fileID: 1929710335}
+  - {fileID: 73208610}
   m_Father: {fileID: 414079933}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &589397181
 MonoBehaviour:
@@ -1098,7 +1208,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 589397179}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Hidrogenio
+  mTargetName: Hidrogenio_2
   mDatasetName: Vuforia/Aula01.xml
   mCastedBehaviour: {fileID: 589397179}
   mMeshFilter: {fileID: 0}
@@ -1116,6 +1226,7 @@ GameObject:
   - component: {fileID: 644158669}
   - component: {fileID: 644158668}
   - component: {fileID: 644158671}
+  - component: {fileID: 644158672}
   m_Layer: 0
   m_Name: Atomo
   m_TagString: Untagged
@@ -1130,9 +1241,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 644158665}
-  m_LocalRotation: {x: 0.000000059604645, y: 6.9849193e-10, z: -0.0000000023283064, w: 1}
+  m_LocalRotation: {x: 0.000000059604645, y: 0.0000000018626451, z: -0.0000000013969839, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 0.29999998, y: 0.29999998, z: 0.29999998}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1325436302}
@@ -1214,7 +1325,7 @@ Animator:
   m_GameObject: {fileID: 644158665}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: afa3efb58a085d748a2227240db7745a, type: 2}
+  m_Controller: {fileID: 9100000, guid: 3eb50f8bbc4bb9144b423eb9cd4b8c1a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1225,6 +1336,18 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &644158672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 644158665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c395e0415d7384c966f14f70f09aa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -1760,7 +1883,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1144652449}
   - component: {fileID: 1144652451}
-  - component: {fileID: 1144652450}
   m_Layer: 0
   m_Name: Informacao
   m_TagString: Untagged
@@ -1775,26 +1897,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1144652448}
-  m_LocalRotation: {x: 0.000000059604645, y: 6.9849193e-10, z: -0.0000000023283064, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0.5, z: 0.4000001}
-  m_LocalScale: {x: 0.29999998, y: 0.29999998, z: 0.29999998}
+  m_LocalRotation: {x: 0.000000059604645, y: 0.0000000018626451, z: -0.0000000013969839, w: 1}
+  m_LocalPosition: {x: -0.49873886, y: 0.4828518, z: 0.486778}
+  m_LocalScale: {x: 0.30000606, y: 0.30264586, z: 0.3830573}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 16488421}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1144652450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1144652448}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69c395e0415d7384c966f14f70f09aa2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!212 &1144652451
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -2261,7 +2371,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 5200753494579969130, guid: 84c286067c254a842ab166e5cd5c434e, type: 3}
+  - {fileID: 2100000, guid: 18013bb328c6d0940bc0c6d31a52f981, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2369,7 +2479,7 @@ MonoBehaviour:
   PreviewVisible: 1
   RuntimeOcclusion: 0
   RuntimeCollider: 0
-  mTrackableName: Oxigenio
+  mTrackableName: Oxigenio_2
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/Aula01.xml
   mAspectRatio: 1
@@ -2412,7 +2522,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mObserverBehaviour: {fileID: 1436951766}
   mHiddenRoot: {fileID: 0}
-  mTargetName: Oxigenio
+  mTargetName: Oxigenio_2
   mDatasetName: Vuforia/Aula01.xml
   mCastedBehaviour: {fileID: 1436951766}
   mMeshFilter: {fileID: 0}
@@ -2706,7 +2816,8 @@ GameObject:
   - component: {fileID: 1639421336}
   - component: {fileID: 1639421335}
   - component: {fileID: 1639421334}
-  - component: {fileID: 1639421337}
+  - component: {fileID: 1639421338}
+  - component: {fileID: 1639421339}
   m_Layer: 0
   m_Name: Atomo
   m_TagString: Untagged
@@ -2721,9 +2832,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639421332}
-  m_LocalRotation: {x: 0.000000059604645, y: 6.9849193e-10, z: -0.0000000023283064, w: 1}
+  m_LocalRotation: {x: 0.000000059604645, y: 0.0000000018626451, z: -0.0000000013969839, w: 1}
   m_LocalPosition: {x: 0, y: 1, z: 0}
-  m_LocalScale: {x: 0.29999998, y: 0.29999998, z: 0.29999998}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1239149731}
@@ -2794,7 +2905,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639421332}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!95 &1639421337
+--- !u!114 &1639421338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1639421332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 69c395e0415d7384c966f14f70f09aa2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!95 &1639421339
 Animator:
   serializedVersion: 5
   m_ObjectHideFlags: 0
@@ -2804,10 +2927,10 @@ Animator:
   m_GameObject: {fileID: 1639421332}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: b8489f4ea5e60c640986dc3e27744343, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2353a702d9022f248b9e056ae007dfc1, type: 2}
   m_CullingMode: 0
-  m_UpdateMode: 1
-  m_ApplyRootMotion: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -3258,103 +3381,6 @@ MonoBehaviour:
   mCastedBehaviour: {fileID: 1760247212}
   mMeshFilter: {fileID: 0}
   mMeshRenderer: {fileID: 0}
---- !u!1 &1929710334
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1929710335}
-  - component: {fileID: 1929710336}
-  - component: {fileID: 1929710337}
-  m_Layer: 0
-  m_Name: Informacao
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1929710335
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929710334}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.5, y: 0.5, z: 0.4}
-  m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 589397180}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &1929710336
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929710334}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: e9ebf77108bb2f24d9ff47a50516432b, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 2.63, y: 1.61}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
---- !u!114 &1929710337
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1929710334}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 69c395e0415d7384c966f14f70f09aa2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2019618013
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig>
+  <Tracking>
+    <ImageTarget name="Helio_2" size="1.000000 1.000000" />
+    <ImageTarget name="Hidrogenio_2" size="1.000000 1.000000" />
+    <ImageTarget name="Oxigenio_2" size="1.000000 1.000000" />
+  </Tracking>
+</QCARConfig>
