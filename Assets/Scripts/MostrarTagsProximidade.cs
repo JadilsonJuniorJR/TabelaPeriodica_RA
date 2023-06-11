@@ -15,6 +15,7 @@ public class MostrarTagsProximidade : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        
         distacia=Vector3.Distance(cam.transform.position, transform.position);
         if(distacia <5)
         {

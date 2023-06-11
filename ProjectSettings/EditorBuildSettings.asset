@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MenuPrincipal.unity
+    guid: bd2bfa4eb8dcbb24babeee238f4cc516
+  - enabled: 1
+    path: Assets/Scenes/TabelaPeriodicaAR.unity
+    guid: f54f582ab2e79f449b29a45e6a5d21f3
+  - enabled: 1
+    path: Assets/Scenes/TabelaPeriodicaAR_2.unity
+    guid: 361937962fe399d4094ac4a234089019
   m_configObjects: {}
