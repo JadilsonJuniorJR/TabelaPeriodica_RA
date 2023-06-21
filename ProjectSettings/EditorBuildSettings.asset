@@ -14,13 +14,4 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TabelaPeriodicaAR_5.unity
     guid: 904c154c93cd3964faa697d14a2529ae
-  - enabled: 0
-    path: Assets/Scenes/TabelaPeriodicaAR_2.unity
-    guid: 361937962fe399d4094ac4a234089019
-  - enabled: 0
-    path: Assets/Scenes/TabelaPeriodicaAR_3.unity
-    guid: 3aa38541f5595854ea26168ef44d917a
-  - enabled: 0
-    path: Assets/Scenes/TabelaPeriodicaAR_4.unity
-    guid: 371febf26959e9a45974a6cbc9e82201
   m_configObjects: {}

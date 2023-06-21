@@ -17,10 +17,16 @@ public class PainelScript : MonoBehaviour
         PainelPausa.SetActive(false);
     }
 
+    public void Instrucoes()
+    {
+        SceneManager.LoadScene("Instrucoes");
+    }
+
     public void RetornarMenu()
     {
+        SceneManager.LoadScene("MenuPrincipal");
         Debug.Log("Sair do Jogo");
        
-        SceneManager.LoadScene("MenuPrincipal");
+       
     }
 }
