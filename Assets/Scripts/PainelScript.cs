@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Vuforia;
+
 public class PainelScript : MonoBehaviour
 {
     //[SerializeField] private string Cena;
@@ -9,12 +11,17 @@ public class PainelScript : MonoBehaviour
     [SerializeField] private GameObject CarregarMenu;
     public void Pausar()
     {
-       PainelPausa.SetActive(true);
+       
+        //Time.timeScale = 0f;
+        VuforiaBehaviour.Instance.enabled = false;
+        PainelPausa.SetActive(true);
+        
     }
 
     public void FecharPausar()
     {
         PainelPausa.SetActive(false);
+        VuforiaBehaviour.Instance.enabled = true;
     }
 
     public void Instrucoes()
